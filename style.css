@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+/* font-family: 'Roboto Slab', sefont-family */
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: 'Roboto Slab', serif;
+
+}
+body{
+    background-image: url(https://cdn.wallpapersafari.com/79/79/4p27kj.jpg);
+}
+.flex{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color:white;
+}
+.container{
+    position: absolute;    
+    padding:1.5rem 4rem 3rem 4rem;
+    width:600px;
+    height:750px;
+    border-radius: 1.5rem;
+    box-shadow: 5px 5px  rgb(245, 171, 43);
+    background-color: rgb(32, 25, 228);
+    top:5%;
+}
+.heading{
+    text-align: center;
+    font-size:2rem;
+}
+
+.score_question_box{
+    text-align:center;
+    justify-content:center;
+    font-weight:600;
+    font-size:1.2rem;
+    border: 2px solid  rgb(245, 171, 43); 
+    margin-bottom:1 rem;
+    width:250px;
+    height: 50px;
+    margin:.5rem auto;
+    background-image:url(https://www.microids.com/wp-content/uploads/2020/10/WhoWantsToBeAMillionaire_keyart.jpg);
+    font-weight:bold;
+    padding:0.5rem;
+}
+.question{
+    font-size:1.2rem;
+    text-align:center;
+    line-height:1.3;
+    margin-bottom: 2rem;;
+}
+
+.answer_options{
+    list-style-type:none;
+    margin:1.5rem 0;
+    }
+.title{
+    background-image:url(https://www.microids.com/wp-content/uploads/2020/10/WhoWantsToBeAMillionaire_keyart.jpg);
+    color:rgb(245, 171, 43);
+    border:2px solid rgb(245, 171, 43);
+    margin-bottom:1 rem;
+    margin:.5rem auto;
+
+
+}
+#start_game{
+    top:30%;
+    justify-content:center;
+    text-align: center;
+    align-self: center;
+    border:1px solid rgb(245, 171, 43);
+    display:flex;
+    margin:auto;
+  
+}
+
+.answer_options li{
+    border-radius:.5rem;
+    font-weight:600;
+    margin: 1rem ;
+    padding:0.5rem;
+    cursor:pointer;
+    border:3px solid rgb(245, 171, 43);
+    height:55px;
+}
+
+
+.selected{
+    background-color: rgb(245, 171, 43)!important;/*  if you use the !important rule, it will override ALL previous styling rules for that specific property on that element!*/
+    color:black !important;
+    border-color:black !important;
+}
+
+
+.answer_options li:hover{
+    background-color: rgb(245, 171, 43);
+    color:black;
+    border-color:black;
+    }
+
+#check_answer{
+        justify-content:center;
+        text-align: center;
+        align-self: center;
+        border:1px solid rgb(245, 171, 43);
+        background-image:url(https://www.microids.com/wp-content/uploads/2020/10/WhoWantsToBeAMillionaire_keyart.jpg);
+        color:white;
+        height:40px;
+        width:100px;
+        padding:.5rem 0;
+        border-radius: 0.2rem;
+
+}
+
+
+
+#play_again{
+    display:none;
+    background-image:url(https://www.microids.com/wp-content/uploads/2020/10/WhoWantsToBeAMillionaire_keyart.jpg);
+    justify-content:center;
+        text-align: center;
+        align-self: center;
+        border:3px solid rgb(34, 157, 46);
+      
+        color:white;
+        height:60px;
+        width:100px;
+        padding:.5rem 0;
+        border-radius: 0.2rem;
+        margin:auto;
+
+}
+.win_lose{
+    margin:1rem;
+    font-weight:600;
+    margin:1rem ;
+    padding:0.4rem;
+    cursor:pointer;
+    border-radius:.4rem;
+    border: .2rem block white;
+    color:black;
+
+
+}
+.result{
+    margin:1rem;
+    font-weight:600;
+    margin:1rem ;
+    border-radius:.25rem;
+    border:.2 rem block white;
+    cursor:pointer;
+    color:black;
+}
+.bottom{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+#fifty_fifty{
+    border:1px solid rgb(245, 171, 43);
+        background-image:url(https://www.microids.com/wp-content/uploads/2020/10/WhoWantsToBeAMillionaire_keyart.jpg);
+        color:white;
+        height:40px;
+        width:100px;
+        padding:.5rem 0;
+        border-radius: 0.2rem;
+}
+#skip{
+    border:1px solid rgb(245, 171, 43);
+        background-image:url(https://www.microids.com/wp-content/uploads/2020/10/WhoWantsToBeAMillionaire_keyart.jpg);
+        color:white;
+        height:40px;
+        width:100px;
+        padding:.5rem 0;
+        border-radius: 0.2rem;
+}
+#audience{
+    border:1px solid rgb(245, 171, 43);
+        background-image:url(https://www.microids.com/wp-content/uploads/2020/10/WhoWantsToBeAMillionaire_keyart.jpg);
+        color:white;
+        height:40px;
+        width:100px;
+        padding:.5rem 0;
+        border-radius: 0.2rem;
+}
+#question_number{
+    text-align:center;
+    justify-content: center;
+    padding:.5rem;
+    font-weight:600;
+    font-size:1rem;
+    border: 2px solid  rgb(245, 171, 43);  
+    border-right:none;
+    width:100px;
+    height: 50px;
+    margin:.5rem auto;
+    background-image:url(https://www.microids.com/wp-content/uploads/2020/10/WhoWantsToBeAMillionaire_keyart.jpg);
+    font-weight:bold;
+
+}
